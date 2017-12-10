@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require('fs')
 const zlib = require('zlib')
 //if ft module is installed
@@ -42,7 +43,7 @@ function recreatePath(path) {
 
 //cli 
 if (process.argv.slice(2).length < 1) {
-	console.log('usage: node unnpk.js file.npk')
+	console.log('usage: unnpk file.npk')
 	console.log('manifest needs to be placed in "manifest" folder with same name as npk and json extension, e.g. manifest/file.json')
 	console.log('you can also enable software-extension-detection by adding any another argument after filename, is enabled by default if manifest cannot be found')
 	process.exit()

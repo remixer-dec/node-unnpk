@@ -1,6 +1,6 @@
 {
   "name": "unnpk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npk package extractor",
   "main": "unnpk.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/remixer-dec/unnpk-node.git"
+  },
+  "bin":{
+      "unnpk":"./unnpk.js"
   },
   "keywords": [
     "npk",
