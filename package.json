@@ -20,15 +20,18 @@
     "unpack"
   ],
   "author": "Remixer Dec",
-  "contributors":[
-    { 
-      "name" : "YJBeetle (creator of unnpk c implementation)",
-      "url" : "https://github.com/YJBeetle"
+  "contributors": [
+    {
+      "name": "YJBeetle (creator of unnpk c implementation)",
+      "url": "https://github.com/YJBeetle"
     }
   ],
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/remixer-dec/unnpk-node/issues"
   },
-  "homepage": "https://github.com/remixer-dec/unnpk-node#readme"
+  "homepage": "https://github.com/remixer-dec/unnpk-node#readme",
+  "dependencies": {
+    "file-type": "^7.4.0"
+  }
 }
