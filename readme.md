@@ -16,13 +16,13 @@ or you just can clone github repo and run it
 
 **local installation**  
   
-> git clone https://github.com/remixer-dec/node-unnpk
-> cd node-unnpk
-> npm install 
+> git clone https://github.com/remixer-dec/node-unnpk  
+> cd node-unnpk  
+> npm install   
 
 **usage**
 
-> node unnpk file.npk
+> node unnpk file.npk  
 
 
 This version is more manifest-related. The Manifest (or a file with all  filenames and offsets of npk archive) is usually obtained from a game's server.   
